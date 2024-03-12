@@ -8,14 +8,10 @@ import Rating from "@material-ui/lab/Rating";
 import useStyles from './styles';
 import mapStyles from './mapStyles';
 
-
-
-
 const Map = ({setCoordinates, setBounds, coordinates, places , setChildClicked}) => {
 
     const classes = useStyles();
     const isDesktop = useMediaQuery('(min-width:600px)');
-
 
     return (
         <div className={classes.mapContainer}>
